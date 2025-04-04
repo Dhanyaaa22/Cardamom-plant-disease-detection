@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cardamom</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: Georgia, 'Jost', sans-serif;
+            background: linear-gradient(to bottom, #1C742B, #1C742B, #8CDA99);
+            color: white;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .topnav a {
+            color: #f2f2f2;
+            text-decoration: none;
+            font-size: 17px;
+            margin: 0 15px;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .content {
+            text-align: left; /* Aligns text to the left */
+            margin-top: 20px;
+            padding-left: 20px; /* Adjust the left margin */
+        }
+
+        .model-box {
+            width: 300px;
+            height: 50px;
+            background: #fff;
+            color: black;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-left: 20px; /* Moves box to the left */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Smart Diagnosis of Cardamom Plant Diseases using Advanced Technology</h1>
+
+    <div class="topnav">
+        <a href="/homepage">Home</a>
+        <a href="/dataupload">Uploaded Dataset</a>
+        <a href="/createmodel">Create Model</a>
+        <a href="/predictdata">Predict Data</a>
+        <a href="/viewgraph">Evaluation Matrix</a>
+    </div>
+
+    <div class="content">
+        <h3>Model Created Successfully</h3>
+        <div class="model-box">
+            {{data}}
+        </div>
+    </div>
+
+</body>
+</html>

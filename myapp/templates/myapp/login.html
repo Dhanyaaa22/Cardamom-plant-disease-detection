@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide Navbar</title>
+	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+     {% load static %}
+   <style>
+    /* Global Styles */
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to bottom, #e8f5e9, #c8e6c9, #81c784);
+    }
+
+    /* Main Container */
+    .main {
+        width: 320px; /* Reduced width */
+        height: 350px; /* Adjusted height */
+        background: white;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    /* Form Title */
+    label {
+        color: #2e7d32;
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-bottom: 10px; /* Reduced margin */
+        text-align: center;
+        display: block;
+    }
+
+    /* Input Fields */
+    input {
+        width: 100%;
+        height: 40px;
+        background: #f1f8e9;
+        border: 2px solid #a5d6a7;
+        border-radius: 6px;
+        padding: 10px;
+        font-size: 14px;
+        color: #2e7d32;
+        margin-bottom: 12px;
+        box-sizing: border-box;
+    }
+
+    input:focus {
+        border-color: #2e7d32;
+        outline: none;
+        box-shadow: 0px 0px 5px rgba(46, 125, 50, 0.3);
+    }
+
+    /* Button */
+    button {
+        width: 100%;
+        height: 40px;
+        background: #2e7d32;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background: #66bb6a;
+    }
+
+    /* Responsive Styling */
+    @media (max-width: 400px) {
+        .main {
+            width: 90%;
+        }
+    }
+</style>
+
+</head>
+<body>
+<div class="main">
+    <form action="{% url 'homepage' %}" method="POST">
+        {% csrf_token %}
+        <label>Login</label>
+        <input type="text" name="uname" placeholder="User name" required>
+        <input type="password" name="pwd" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+</body>
+</html>

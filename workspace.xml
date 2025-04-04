@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24c28cbc-a697-4ea4-839b-62f1714a029e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gDq5M0yMClHq7yiG99ordI4m5r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "last_opened_file_path": "D:/cardamom/cardamom/cardamom_project"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="cardamom_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24c28cbc-a697-4ea4-839b-62f1714a029e" name="Default Changelist" comment="" />
+      <created>1715242311334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715242311334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1715356909840">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1715356909840" />
+    <state width="1515" height="258" key="GridCell.Tab.0.bottom" timestamp="1715357495482">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1715357495482" />
+    <state width="1515" height="258" key="GridCell.Tab.0.center" timestamp="1715357495482">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1715357495482" />
+    <state width="1515" height="258" key="GridCell.Tab.0.left" timestamp="1715357495482">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1715357495482" />
+    <state width="1515" height="258" key="GridCell.Tab.0.right" timestamp="1715357495482">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1715357495482" />
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1715357495482">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1715357495482" />
+    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1715357495482">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1715357495482" />
+    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1715357495482">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1715357495482" />
+    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1715357495482">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1715357495482" />
+    <state x="277" y="51" key="SettingsEditor" timestamp="1715357032545">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="51" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1715357032545" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1715357333752">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1715357333752" />
+  </component>
+</project>

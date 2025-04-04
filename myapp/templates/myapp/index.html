@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cardamom</title>
+    {% load static %}
+</head>
+<!--<body style="background-image: url({% static 'images/ccoverpage.png' %});background-size: 1500px 650px; background-repeat: no-repeat;">-->
+<!--<a style="float: right; font-size: 30px;color:black;" href="/login">Login </a>-->
+<!--</body>-->
+<body style=" height: 100vh; margin: 0; overflow: hidden;
+    background: url({% static 'images/ccoverpage.png' %}) no-repeat center center / cover;
+    font-family: Arial, sans-serif;
+">
+<!-- Login Button at Top-Right -->
+    <a href="/login" style="
+        position: absolute; top: 20px; right: 30px; font-size: 20px; color: #2e7d32; text-decoration: none; font-weight: bold;
+        padding: 10px 20px; border: 2px solid #2e7d32; border-radius: 30px; transition: 0.3s;
+    " onmouseover="this.style.background='#2e7d32'; this.style.color='white';"
+      onmouseout="this.style.background='transparent'; this.style.color='#2e7d32';">
+        Login
+    </a>
+</body>
+</html>
