@@ -30,9 +30,7 @@ A custom dataset of cardamom leaf images was created, categorized into:
 - Fungal infections
 - Bacterial infections
 - Nutrient deficiencies
-
-*(You can mention the number of images and data sources if available.)*
-
+  
 ## Features
 
 - Automated disease classification with high accuracy
