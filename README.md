@@ -42,15 +42,17 @@ A custom dataset of cardamom leaf images was created, categorized into:
 
 ## 📁 Project Structure
 
-```bash
-cardamom-disease-detection/
-├── dataset/
-├── model/
-│   └── vgg19_model.h5
-├── src/
-│   ├── preprocess.py
-│   ├── train_model.py
-│   └── detect_disease.py
-├── iot/
-│   └── iot_integration.py
+cardamom-plant-disease-detection/
+├── Test Images/
+├── cardamom_project/
+├── inspectionProfiles/
+├── myapp/
 ├── README.md
+├── cardamom.iml
+├── cardamom_project.iml
+├── manage.py
+├── misc.xml
+├── modules.xml
+└── workspace.xml
+
+
